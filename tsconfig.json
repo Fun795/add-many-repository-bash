@@ -1,0 +1,15 @@
+{
+  "extends": "@byndyusoft/tsconfig/tsconfig.node14.json",
+  "compilerOptions": {
+    // Emit
+    "outDir": "./dist",
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2020.bigint"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
+}
